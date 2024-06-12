@@ -1,0 +1,15 @@
+file_type: csv
+file_name: eCommerce_data
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - event_time
+    - event_type
+    - product_id
+    - category_id
+    - category_code
+    - brand
+    - price
+    - user_id
+    - user_session
